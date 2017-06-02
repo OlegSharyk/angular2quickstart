@@ -19,6 +19,7 @@ h3 {
 }
 h4 {
     position: relative;
+    line-height: 80px;
 }
 .grid {
     margin: 0;
@@ -30,7 +31,7 @@ h4 {
     padding: 20px;
     text-align: center;
     color: #eee;
-    max-height: 120px;
+    max-height: 220px;
     min-width: 120px;
     background-color: #607D8B;
     border-radius: 2px;
@@ -50,6 +51,9 @@ h4 {
     .module {
         font-size: 10px;
         max-height: 75px; }
+    h4 {
+        line-height: 1.5;
+    }
 }
 @media (max-width: 1024px) {
     .grid {
@@ -57,5 +61,8 @@ h4 {
     }
     .module {
         min-width: 60px;
+    }
+    h4 {
+        line-height: 1.5;
     }
 }
